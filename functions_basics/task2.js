@@ -1,12 +1,6 @@
-function checkAge(minAge) {
-  return function (age) {
-    const isAdult = age >= minAge;
-    console.log(`Is adult (${age}):`, isAdult);
-    return isAdult;
-  };
+function checkAge(age) {
+  return age >= 18;
 }
 
-const isAdult = checkAge(18);
-
-isAdult(25);
-isAdult(15);
+console.log(checkAge(25));
+console.log(checkAge(15));
