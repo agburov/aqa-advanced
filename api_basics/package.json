@@ -1,0 +1,15 @@
+{
+  "name": "api-basics",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "chai": "^5.2.1",
+    "jest": "^30.0.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
