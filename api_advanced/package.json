@@ -1,0 +1,21 @@
+{
+  "name": "api_advanced",
+  "version": "1.0.0",
+  "main": "task1.js",
+  "scripts": {
+    "test": "jest",
+    "api_1": "jest tests/task1.test.js",
+    "api_2": "jest tests/task2.test.js",
+    "api_3": "jest tests/task3.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
